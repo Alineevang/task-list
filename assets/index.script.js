@@ -44,5 +44,7 @@ function editTask() {
     const check = getElementById("check").value = check.check;
     const trash = getElementById("trash").value = check.trash;
 
+    taskIndex = index;
+
 }
 
