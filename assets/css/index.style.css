@@ -1,0 +1,22 @@
+body {
+    background-color: #f5f5f5 ;
+    text-align: center;
+
+}
+
+
+
+.input_text {
+    text-align: center;
+    margin-top: 13px;
+    height: 45px;
+    width: 100vh;
+}
+
+#input_text1 {
+    text-align: left;
+    margin-top: 13px;
+    height: 45px;
+    width: 100vh;
+    font-size: 16px;
+}
