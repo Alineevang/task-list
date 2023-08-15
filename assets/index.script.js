@@ -19,11 +19,30 @@ if (edit && check && trash) {
 
     } else {
         task[taskIndex] = {
-        edit,
-        check,
-        trash,
+            edit,
+            check,
+            trash,
         };
     }
-} 
-baseTask
-  
+
+baseTask(edit, check, trash);
+
+trashTask()
+
+}
+
+function trashTask() {
+    const edit = getElementById("edit").value = "";
+    const check = getElementById("checkt").value = "";
+    const trash = getElementById("trash").value = "";
+}
+
+function editTask() {
+    const task = task[index];
+
+    const edit = getElementById("edit").value = task.edit;
+    const check = getElementById("check").value = check.check;
+    const trash = getElementById("trash").value = check.trash;
+
+}
+
