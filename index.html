@@ -16,11 +16,24 @@
         <div>
             <input type="text" id="input_text1" placeholder="Adicione uma nova tarefa">
             <button onclick="addList()"><i class="fa-solid fa-plus"></i></button>
+            <div id="task">
+                <span>Tarefa - 1 </span>
                 <div>
-                    <span></span>
-                    <div>
-                    </div>
+                    <button class="button" onclick="checkTask()"><i class="fa-solid fa-check"></i></button>
+                    <button class="button" onclick="editTask()"><i class="fa-solid fa-pen"></i></button>
+                    <button class="button" onclick="trashTask()"><i class="fa-solid fa-trash"></i></button>
                 </div>
+            </div>
+            <div id="task">
+                <span>Tarefa - 2 </span>
+                <div>
+                    <button class="button" onclick="checkTask2()"><i class="fa-solid fa-check"></i></button>
+                    <button class="button" onclick="editTask2()"><i class="fa-solid fa-pen"></i></button>
+                    <button class="button" onclick="trashTask2()"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
